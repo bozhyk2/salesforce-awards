@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NomineeNotNominator</fullName>
+    <active>true</active>
+    <description>You cannot nominate yourself.</description>
+    <errorConditionFormula>NominatorId__c  =  NomineeId__c</errorConditionFormula>
+    <errorDisplayField>NomineeId__c</errorDisplayField>
+    <errorMessage>You cannot nominate yourself.</errorMessage>
+</ValidationRule>

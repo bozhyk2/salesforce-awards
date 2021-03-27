@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Nomination Category is created for the Campaign.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Nomination Category is created for the Campaign.</inlineHelpText>
+    <label>Campaign Id</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>NominationCategories</relationshipLabel>
+    <relationshipName>NominationCategories</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unique_Name</fullName>
+    <active>true</active>
+    <description>All Nomination Category must have unique name.</description>
+    <errorConditionFormula>UniqueName__c = False</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Nomination Category with the same name already exists. Please try to use it.</errorMessage>
+</ValidationRule>

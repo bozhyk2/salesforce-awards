@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NomineeId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Field is created to point a person who is nominated by the Nominator Id.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choice a person for The Nomination.</inlineHelpText>
+    <label>Nominee Id</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>About Me</relationshipLabel>
+    <relationshipName>AboutMe</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

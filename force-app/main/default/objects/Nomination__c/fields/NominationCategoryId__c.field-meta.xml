@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NominationCategoryId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Nomination Category for the Nominee.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the existed Nomination Category for the Nominee or create a new one.</inlineHelpText>
+    <label>Nomination Category Id</label>
+    <referenceTo>NominationCategory__c</referenceTo>
+    <relationshipLabel>Nominations</relationshipLabel>
+    <relationshipName>Nominations</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
